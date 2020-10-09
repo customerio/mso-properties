@@ -1,6 +1,6 @@
 # mso-properties
 
-NPM package of all MSO properties
+NPM package of all MSO CSS properties
 
 
 ## Installation
