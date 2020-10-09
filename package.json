@@ -1,6 +1,6 @@
 {
   "name": "@useparcel/mso-properties",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Microsoft Office CSS properties",
   "main": "index.js",
   "author": "Avi Goldman",
