@@ -1,0 +1,13 @@
+{
+  "name": "@useparcel/mso-properties",
+  "version": "1.0.0",
+  "description": "Microsoft Office CSS properties",
+  "main": "index.js",
+  "author": "Avi Goldman",
+  "license": "MIT",
+  "homepage": "https://useparcel.com/oss",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/useparcel/mso-properties"
+  }
+}
