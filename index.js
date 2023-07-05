@@ -5173,6 +5173,181 @@ module.exports = [
     "inherits": false
   },
   {
+    "property": "mso-effects-shadow-color",
+    "values":[
+      "<color>",
+      "windowtext"
+    ],
+    "default": "windowtext",
+    "inherits": true
+  },
+  {
+    "property": "mso-effects-shadow-alpha",
+    "values":[
+      "<percentage>"
+    ],
+    "default": '100%',
+    "inherits": true
+  },
+  {
+    "property": "mso-effects-shadow-dpiradius",
+    "values":[
+      "<length>"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
+    "property": "mso-effects-shadow-dpidistance",
+    "values":[
+      "<length>"
+    ],
+    "default": 0,
+    "inherits": true
+  },
+  {
+    "property": "mso-effects-shadow-angledirection",
+    "values":[
+      "<number>"
+    ],
+    "default": 0,
+    "inherits": true
+  },
+  {
+    "property": "mso-effects-shadow-pctsx",
+    "values":[
+      "<percentage>"
+    ],
+    "default": 0,
+    "inherits": true
+  },
+  {
+    "property": "mso-effects-shadow-pctsy",
+    "values":[
+      "<percentage>"
+    ],
+    "default": 0,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textoutline-type",
+    "values": [
+      "gradient",
+      "solid",
+      "none"
+    ],
+    "default": "none",
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textoutline-fill-color",
+    "values": [
+      "auto",
+      "<color>",
+      "windowtext"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textoutline-outlinestyle-dpiwidth",
+    "values": [
+      "<length>"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textoutline-fill-alpha",
+    "values": [
+      "<percentage>"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textoutline-outlinestyle-dash",
+    "values": [
+      "solid",
+      "dotsys",
+      "dashsys",
+      "dashgel",
+      "dashdotgel",
+      "longdashgel",
+      "longdashdotgel",
+      "longdashdotdotgel"
+   ],
+    "default": "solid",
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textoutline-outlinestyle-compound",
+    "values": [
+      "solid",
+      "double",
+      "tripple",
+      "thickthin",
+      "thinthick"
+    ],
+    "default": "solid",
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textfill-type",
+    "values": [
+      "gradient",
+      "solid",
+      "none"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textfill-fill-color",
+    "values": [
+      "auto",
+      "<color>",
+      "windowtext"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textfill-fill-alpha",
+    "values": [
+      "<percentage>",
+      "none"
+    ],
+    "default": "100%",
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textfill-fill-gradientfill-shadetype",
+    "values": [
+      "linear",
+      "path-rect",
+      "path-circle"
+    ],
+    "default": "linear",
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textfill-fill-gradientfill-shade-linearshade-angle",
+    "values": [
+      "<number>"
+    ],
+    "default": 0,
+    "inherits": true
+  },
+  {
+    "property": "mso-style-textfill-fill-gradientfill-shade-linearshade-angle",
+    "values": [
+      "<string>"
+    ],
+    "default": null,
+    "inherits": true
+  },
+  {
     "property": "mso-ignore",
     "values": [
       "align",
@@ -5620,15 +5795,57 @@ module.exports = [
     "inherits": false
   },
   {
-    "property": "mso-margin-left-alt",
+    "property": "mso-margin-top-alt",
     "values": [
-      "<number>"
+      "auto",
+      "<length>",
+      "<percentage>"
     ],
     "default": 0,
     "inherits": false
   },
   {
-    "property": "mso-margin-top-alt",
+    "property": "mso-para-margin",
+    "values": [
+      "auto",
+      "<length>",
+      "<percentage>"
+    ],
+    "default": 0,
+    "inherits": false
+  },
+  {
+    "property": "mso-para-margin-top",
+    "values": [
+      "auto",
+      "<length>",
+      "<percentage>"
+    ],
+    "default": 0,
+    "inherits": false
+  },
+  {
+    "property": "mso-para-margin-right",
+    "values": [
+      "auto",
+      "<length>",
+      "<percentage>"
+    ],
+    "default": 0,
+    "inherits": false
+  },
+  {
+    "property": "mso-para-margin-bottom",
+    "values": [
+      "auto",
+      "<length>",
+      "<percentage>"
+    ],
+    "default": 0,
+    "inherits": false
+  },
+  {
+    "property": "mso-para-margin-left",
     "values": [
       "auto",
       "<length>",
@@ -7348,7 +7565,8 @@ module.exports = [
   {
     "property": "mso-special-format",
     "values": [
-      "<string>"
+      "<string>",
+      "bullet"
     ],
     "default": null,
     "inherits": false
@@ -7708,6 +7926,16 @@ module.exports = [
     "values": [
       "<length>",
       "<percentage>"
+    ],
+    "default": 0,
+    "inherits": false
+  },
+  {
+    "property": "text-underline-color",
+    "values": [
+      "auto",
+      "<color>",
+      "windowtext"
     ],
     "default": 0,
     "inherits": false
